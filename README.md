@@ -24,12 +24,12 @@ chmod +x androidEmulatorStarter.command
 ![screen shots](screenshots/1.jpg)
 
 ## Computing your app's hash string (for sms retriever)
-- Download [open terminal script](scripts/sms_retriever_hash_v9.sh)
+- Download [app hash string script](scripts/sms_retriever_hash_v9.sh)
 - Navigate to the location of the script file you just downloaded using Terminal and change its permissions using:
 ```
 chmod +x sms_retriever_hash_v9.sh
 ```
-- Now script is ready open terminal on run script:
+- Now script is ready, open terminal on run script:
 ```
 sh sms_retriever_hash_v9.sh --package "com.your.packagename" --keystore /path/to/your.keystore
 ```
