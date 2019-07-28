@@ -22,6 +22,20 @@ chmod +x androidEmulatorStarter.command
 ```
 - Now, if you need to Launch android emulators, just click on the 'androidEmulatorStarter.command' file and choose one of the available options
 ![screen shots](screenshots/1.jpg)
+
+## Computing your app's hash string (for sms retriever)
+- Download [open terminal script](scripts/sms_retriever_hash_v9.sh)
+- Navigate to the location of the script file you just downloaded using Terminal and change its permissions using:
+```
+chmod +x sms_retriever_hash_v9.sh
+```
+- Now script is ready open terminal on run script:
+```
+sh sms_retriever_hash_v9.sh --package "com.your.packagename" --keystore /path/to/your.keystore
+```
+![screen shots](https://raw.githubusercontent.com/mostafataghipour/My-assistants-in-Android-development/master/screenshots/2.png)
+
+
 ## Author
 
 Mostafa Taghipour, mostafa@taghipour.me
